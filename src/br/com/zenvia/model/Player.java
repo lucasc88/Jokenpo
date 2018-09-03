@@ -13,7 +13,16 @@ public class Player {
     private Status status;
     private Played played;
 
-    public String getName() {
+    public Player(Played played) {
+		this.played = played;
+	}
+
+
+    public Player() {
+	}
+
+    
+	public String getName() {
         return name;
     }
 

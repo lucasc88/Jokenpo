@@ -6,5 +6,5 @@ package br.com.zenvia.enums;
  */
 public enum Played {
     
-    STONE, PAPER, SCISSORS;
+    STONE, PAPER, SCISSORS, LIZARD, SPOCK;
 }
